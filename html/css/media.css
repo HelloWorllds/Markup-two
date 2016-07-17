@@ -1,0 +1,1063 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.top_header h1 {
+	  font-size: 55px;
+	}
+
+	.top_header h2 {
+	  font-size: 24px;
+	}
+
+	.right_hr {
+	  width: 70px;
+	}
+
+	.left_hr {
+	  width: 70px;
+	}
+
+	.top_header {
+	  margin-top: 110px;
+	}
+
+	.portfolio .menu ul li {
+	  font-size: 25px;
+	  line-height: 20px;
+	  padding: 7px 25px;
+	}
+
+	.portfolio .hr {
+	  height: 1.4px;
+	  width: 18%;
+	}
+
+	.rewviews_item .text {
+	  max-width: 315px;
+	  margin-left: 80px;
+	  bottom: 10px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.top_header h1 {
+	  font-size: 50px;
+	}
+
+	.top_header h2 {
+	  font-size: 22px;
+	}
+
+	.right_hr {
+	  width: 50px;
+	}
+
+	.left_hr {
+	  width: 50px;
+	}
+
+	.top_header {
+	  margin-top: 90px;
+	}
+
+	.process .process_header .process_hr {
+	  width: 21%;
+	}
+
+	.process_img img {
+	  width: 95%;
+	}
+
+	.process_img .process_steps {
+	  font-size: 15px;
+	}
+
+	.process_img .process_steps .step_header strong {
+	  font-size: 25px;
+	}
+
+	.process_img .process_steps .step_header p {
+	  font-size: 25px;
+	}
+
+	.process_img .process_steps .step_hr {
+	  width: 45%;
+	}
+
+	.step_1 {
+	  position: absolute;
+	  left: 7%;
+	  top: 42%;
+	  display: block;
+	  width: 190px
+	}
+
+	.step_2 {
+	  position: absolute;
+	  left: 37%;
+	  top: 48%;
+	  display: block;
+	  width: 190px
+	}
+
+	.step_3 {
+	  position: absolute;
+	  left: 46%;
+	  top: 30%;
+	  display: block;
+	  width: 190px
+	}
+
+	.step_4 {
+	  position: absolute;
+	  left: 66%;
+	  top: 43%;
+	  display: block;
+	  width: 250px
+	}
+
+	.portfolio .menu ul li {
+	  font-size: 20px;
+	  line-height: 18px;
+	  padding: 5px 5px;
+	}
+
+	.portfolio .hr {
+	  height: 1.2px;
+	  width: 25%;
+	}
+
+	.team .header .hr {
+	  width: 18%;
+	}
+
+	.team .team_items .item {
+	  margin-right: 40px;
+	  margin-bottom: 30px;
+	}
+
+	.rewviews_item .text {
+	  max-width: 300px;
+	  font-size: 15px;
+	  position: relative;
+	  top: 0;
+	  margin-left: 80px;
+	}
+
+	.rewviews_item .img_wrap img{
+	  width: 100%;
+	  position: relative;
+	  left: 80px;
+	  top: 20px;
+	}
+
+	.rewviews_item .name {
+	  position: relative;
+	  top: 4px;
+	  left: 100px;
+	}
+
+	.rewviews_item .name p {
+	  font-size: 25px;
+	  margin-right: 10px;
+	  margin-bottom: 5px;
+	}
+
+	.rewviews_item .name strong {
+	  font-size: 25px;
+	  margin-bottom: 5px;
+	}
+
+	.rewviews_item .name .position {
+	  font-size: 18px;
+	  position: relative;
+	  right: 5px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.top_header h1 {
+	  font-size: 50px;
+	}
+
+	.top_header h2 {
+	  font-size: 22px;
+	}
+
+	.right_hr {
+	  width: 40px;
+	}
+
+	.left_hr {
+	  width: 40px;
+	}
+
+	.top_header {
+	  margin-top: 90px;
+	}
+
+	.process .process_header .process_hr {
+	  width: 28%;
+	}
+
+	.process_img img {
+	  width: 95%;
+	}
+
+	.process_img .process_steps {
+	  font-size: 11px;
+	}
+
+	.process_img .process_steps .step_header strong {
+	  font-size: 20px;
+	}
+
+	.process_img .process_steps .step_header p {
+	  font-size: 20px;
+	}
+
+	.process_img .process_steps .step_hr {
+	  width: 45%;
+	}
+
+	.step_1 {
+	  position: absolute;
+	  left: 6%;
+	  top: 47%;
+	  display: block;
+	  width: 160px
+	}
+
+	.step_2 {
+	  position: absolute;
+	  left: 36%;
+	  top: 53%;
+	  display: block;
+	  width: 160px
+	}
+
+	.step_3 {
+	  position: absolute;
+	  left: 45%;
+	  top: 36%;
+	  display: block;
+	  width: 160px
+	}
+
+	.step_4 {
+	  position: absolute;
+	  left: 66%;
+	  top: 48%;
+	  display: block;
+	  width: 200px
+	}
+
+	.portfolio .menu ul li {
+	  font-size: 20px;
+	  line-height: 18px;
+	  padding: 5px 5px;
+	}
+
+	.portfolio .hr {
+	  height: 1.2px;
+	  width: 25%;
+	}
+
+	.team .header .hr {
+	  width: 20%;
+	}
+
+	.team .team_items .item {
+	  margin-right: 20px;
+	  margin-bottom: 30px;
+	}
+
+	.rewviews_item .text {
+	  max-width: 300px;
+	  font-size: 15px;
+	  position: relative;
+	  top: 0;
+	  margin-left: 80px;
+	}
+
+	.rewviews_item .img_wrap img{
+	  width: 95%;
+	  position: relative;
+	  left: 100px;
+	  top: 20px;
+	}
+
+	.rewviews_item .name {
+	  position: relative;
+	  top: 0;
+	  left: 0;
+	}
+
+	.rewviews_item .name p {
+	  font-size: 25px;
+	  margin-right: 10px;
+	  margin-bottom: 5px;
+	}
+
+	.rewviews_item .name strong {
+	  font-size: 25px;
+	  margin-bottom: 5px;
+	}
+
+	.rewviews_item .name .position {
+	  font-size: 18px;
+	  position: relative;
+	  right: 5px;
+	}
+}
+
+@media only screen and (max-width : 699px) {
+	.top_header h1 {
+	  font-size: 50px;
+	}
+
+	.top_header h2 {
+	  font-size: 22px;
+	}
+
+	.right_hr {
+	  width: 40px;
+	}
+
+	.left_hr {
+	  width: 40px;
+	}
+
+	.top_header {
+	  margin-top: 90px;
+	}
+
+	.process .process_header .process_hr {
+	  width: 55%;
+	}
+
+	.process_img img {
+	  width: 0px;
+	}
+
+	.process_img .process_steps {
+	  font-size: 12px;
+	}
+
+	.process_img .process_steps .step_header strong {
+	  font-size: 20px;
+	}
+
+	.process_img .process_steps .step_header p {
+	  font-size: 20px;
+	}
+
+	.process_img .process_steps .step_hr {
+	  width: 20%;
+	}
+
+	.step_1 {
+	  position: inherit;
+	  display: block;
+	  width: 100%;
+	}
+
+	.step_2 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.step_3 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.step_4 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.portfolio .menu ul li {
+	  font-size: 18px;
+	  line-height: 16px;
+	  padding: 5px 5px;
+	}
+
+	.portfolio .hr {
+	  height: 1.2px;
+	  width: 30%;
+	}
+
+	.team .header .hr {
+	  width: 20%;
+	}
+
+	.team .team_items .item {
+	  margin-right: 20px;
+	  margin-bottom: 30px;
+	}
+
+	.rewviews_item .text {
+	  max-width: 250px;
+	  font-size: 12px;
+	  position: relative;
+	  top: 20px;
+	  margin-left: 80px;
+	}
+
+	.rewviews_item .img_wrap img{
+	  width: 80%;
+	  position: relative;
+	  left: 350px;
+	  bottom: 110px;
+	}
+
+	.rewviews_item .name {
+	  position: relative;
+	  top: 10px;
+	  left: 0;
+	}
+
+	.rewviews_item .name p {
+	  font-size: 25px;
+	  margin-right: 10px;
+	  margin-bottom: 5px;
+	}
+
+	.rewviews_item .name strong {
+	  font-size: 25px;
+	  margin-bottom: 5px;
+	}
+
+	.rewviews_item .name .position {
+	  font-size: 18px;
+	  position: relative;
+	  right: 5px;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	.logo img {
+	  width: 40px;
+	  margin-right: 5px;
+	}
+
+	.logo .logo_name {
+	  font-size: 20px;
+	}
+
+	.main_menu {
+		font-size: 11px;
+		text-align: right;
+	}
+
+	.main_menu a {
+	  margin-right: 5px;
+	  margin-top: 10px;
+	}
+
+	.top_header h1 {
+	  font-size: 40px;
+	}
+
+	.top_header h2 {
+	  font-size: 18px;
+	}
+
+	.right_hr {
+	  width: 0px;
+	}
+
+	.left_hr {
+	  width: 0px;
+	}
+
+	.top_header {
+	  margin-top: 90px;
+	}
+
+	.btn_wrap {
+	  margin-top: 100px;
+	  margin-left: 0;
+	}
+
+	.button {
+	  font-size: 18px;
+	  padding: 8px 30px;
+	}
+
+	.btn_wrap .btn_top {
+	  display: inline-block;
+	  margin-right: 20px;
+	  margin-top: -8px;
+	}
+
+	.btn_circle {
+	  left: 45%;
+	}
+
+	.btn_circle_red {
+	  left: 45%;
+	}
+
+	.ramka {
+		text-align: center;
+		padding: 40px 20px;
+	}
+
+	.ramka strong {
+	  font-size: 45px;
+	  margin-bottom: 0px;
+	}
+
+	.ramka p {
+	  font-size: 45px;
+	  margin-top: -10px;
+	  margin-bottom: 30px;
+	}
+
+	.process .process_header .process_hr {
+	  width: 55%;
+	}
+
+	.process_img img {
+	  width: 0px;
+	}
+
+	.process_img .process_steps {
+	  font-size: 12px;
+	}
+
+	.process_img .process_steps .step_header strong {
+	  font-size: 20px;
+	}
+
+	.process_img .process_steps .step_header p {
+	  font-size: 20px;
+	}
+
+	.process_img .process_steps .step_hr {
+	  width: 20%;
+	}
+
+	.step_1 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.step_2 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.step_3 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.step_4 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.portfolio .menu ul li {
+	  font-size: 15px;
+	  line-height: 16px;
+	  padding: 5px 5px;
+	}
+
+	.portfolio .hr {
+	  height: 1.2px;
+	  width: 37%;
+	}
+
+	.team .header .hr {
+	  width: 25%;
+	}
+
+	.team .team_items .item {
+	  margin-right: 20px;
+	  margin-bottom: 30px;
+	}
+
+	.rewviews_item .text {
+	  max-width: 250px;
+	  font-size: 12px;
+	  position: relative;
+	  top: 20px;
+	  margin-left: 80px;
+	}
+
+	.rewviews_item .img_wrap img{
+	  width: 80%;
+	  position: relative;
+	  left: 350px;
+	  bottom: 110px;
+	}
+
+	.rewviews_item .name {
+	  position: relative;
+	  top: 10px;
+	  left: 0;
+	}
+
+	.rewviews_item .name p {
+	  font-size: 25px;
+	  margin-right: 10px;
+	  margin-bottom: 5px;
+	}
+
+	.rewviews_item .name strong {
+	  font-size: 25px;
+	  margin-bottom: 5px;
+	}
+
+	.rewviews_item .name .position {
+	  font-size: 18px;
+	  position: relative;
+	  right: 5px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.logo img {
+	  width: 40px;
+	  margin-right: 5px;
+	}
+
+	.logo .logo_name {
+	  font-size: 20px;
+	}
+
+	.main_menu {
+		font-size: 11px;
+		text-align: right;
+	}
+
+	.main_menu a {
+	  margin-right: 5px;
+	  margin-top: 10px;
+	}
+
+	.top_header h1 {
+	  font-size: 40px;
+	}
+
+	.top_header h2 {
+	  font-size: 18px;
+	}
+
+	.right_hr {
+	  width: 0px;
+	}
+
+	.left_hr {
+	  width: 0px;
+	}
+
+	.top_header {
+	  margin-top: 90px;
+	}
+
+	.btn_wrap {
+	  margin-top: 100px;
+	  margin-left: 0;
+	}
+
+	.button {
+	  font-size: 18px;
+	  padding: 8px 30px;
+	}
+
+	.btn_wrap .btn_top {
+	  display: inline-block;
+	  margin-right: 20px;
+	  margin-top: -8px;
+	}
+
+	.btn_circle {
+	  left: 45%;
+	}
+
+	.btn_circle_red {
+	  left: 45%;
+	}
+
+	.ramka {
+		text-align: center;
+		padding: 40px 20px;
+	}
+
+	.ramka strong {
+	  font-size: 45px;
+	  margin-bottom: 0px;
+	}
+
+	.ramka p {
+	  font-size: 45px;
+	  margin-top: -10px;
+	  margin-bottom: 30px;
+	}
+
+	.process .process_header .process_hr {
+	  width: 55%;
+	}
+
+	.process_img img {
+	  width: 0px;
+	}
+
+	.process_img .process_steps {
+	  font-size: 12px;
+	}
+
+	.process_img .process_steps .step_header strong {
+	  font-size: 20px;
+	}
+
+	.process_img .process_steps .step_header p {
+	  font-size: 20px;
+	}
+
+	.process_img .process_steps .step_hr {
+	  width: 20%;
+	}
+
+	.step_1 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.step_2 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.step_3 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.step_4 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.portfolio .menu ul li {
+	  font-size: 15px;
+	  line-height: 16px;
+	  padding: 5px 5px;
+	}
+
+	.portfolio .hr {
+	  height: 1.0px;
+	  width: 50%;
+	}
+
+	.team .header .hr {
+	  width: 38%;
+	}
+
+	.team .team_items .item {
+	  margin-right: 20px;
+	  margin-bottom: 30px;
+	}
+
+	.rewviews_item .text {
+	  max-width: 200px;
+	  font-size: 12px;
+	  position: relative;
+	  top: 10px;
+	  margin-left: 50px;
+	}
+
+	.rewviews_item .img_wrap img{
+	  width: 80%;
+	  position: relative;
+	  left: 220px;
+	  bottom: 130px;
+	}
+
+	.rewviews_item .name {
+	  position: relative;
+	  top: 50%;
+	  left: 30%;
+	}
+
+	.rewviews_item .name p {
+	  font-size: 25px;
+	  margin-right: 10px;
+	  margin-bottom: 5px;
+	}
+
+	.rewviews_item .name strong {
+	  font-size: 25px;
+	  margin-bottom: 5px;
+	}
+
+	.rewviews_item .name .position {
+	  font-size: 18px;
+	  position: relative;
+	  right: 5px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+		.logo img {
+	  width: 40px;
+	  margin-right: 5px;
+	}
+
+	.logo .logo_name {
+	  font-size: 20px;
+	}
+
+	.main_menu {
+		font-size: 11px;
+		text-align: right;
+	}
+
+	.main_menu a {
+	  margin-right: 5px;
+	  margin-top: 10px;
+	}
+
+	.top_header h1 {
+	  font-size: 40px;
+	}
+
+	.top_header h2 {
+	  font-size: 18px;
+	}
+
+	.right_hr {
+	  width: 0px;
+	}
+
+	.left_hr {
+	  width: 0px;
+	}
+
+	.top_header {
+	  margin-top: 90px;
+	}
+
+	.btn_wrap {
+	  margin-top: 100px;
+	  margin-left: 0;
+	}
+
+	.button {
+	  font-size: 18px;
+	  padding: 8px 30px;
+	}
+
+	.btn_wrap .btn_top {
+	  display: inline-block;
+	  margin-right: 20px;
+	  margin-top: -8px;
+	}
+
+	.btn_circle {
+	  left: 45%;
+	}
+
+	.btn_circle_red {
+	  left: 45%;
+	}
+
+	.ramka {
+		text-align: center;
+		padding: 40px 20px;
+	}
+
+	.ramka strong {
+	  font-size: 45px;
+	  margin-bottom: 0px;
+	}
+
+	.ramka p {
+	  font-size: 45px;
+	  margin-top: -10px;
+	  margin-bottom: 30px;
+	}
+
+	.process .process_header .process_hr {
+	  width: 55%;
+	}
+
+	.process_img img {
+	  width: 0px;
+	}
+
+	.process_img .process_steps {
+	  font-size: 12px;
+	}
+
+	.process_img .process_steps .step_header strong {
+	  font-size: 20px;
+	}
+
+	.process_img .process_steps .step_header p {
+	  font-size: 20px;
+	}
+
+	.process_img .process_steps .step_hr {
+	  width: 20%;
+	}
+
+	.step_1 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.step_2 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.step_3 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.step_4 {
+	  position: static;
+	  display: block;
+	  width: 100%;
+	}
+
+	.portfolio .menu ul li {
+	  font-size: 15px;
+	  line-height: 16px;
+	  padding: 5px 5px;
+	}
+
+	.portfolio .hr {
+	  height: 1.0px;
+	  width: 50%;
+	}
+
+	.team .header .hr {
+	  width: 38%;
+	}
+
+	.team .team_items .item {
+	  margin-right: 20px;
+	  margin-bottom: 30px;
+	}
+
+	.rewviews_item .text {
+	  max-width: 200px;
+	  font-size: 12px;
+	  position: relative;
+	  top: 10px;
+	  margin-left: 50px;
+	}
+
+	.rewviews_item .img_wrap img{
+	  width: 80%;
+	  position: relative;
+	  left: 220px;
+	  bottom: 130px;
+	}
+
+	.rewviews_item .name {
+	  position: relative;
+	  top: 50%;
+	  left: 30%;
+	}
+
+	.rewviews_item .name p {
+	  font-size: 25px;
+	  margin-right: 10px;
+	  margin-bottom: 5px;
+	}
+
+	.rewviews_item .name strong {
+	  font-size: 25px;
+	  margin-bottom: 5px;
+	}
+
+	.rewviews_item .name .position {
+	  font-size: 18px;
+	  position: relative;
+	  right: 5px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.ramka {
+		min-height: 500px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.top_header {
+	  margin-top: 250px;
+	}
+
+	.btn_wrap {
+	  margin-top: 180px;
+	  margin-left: 170px;
+	}
+
+	.btn_circle {
+	  width: 45px;
+	}
+
+	.ramka {
+		margin-bottom: 200px;
+	}
+}
+
+ /*my media*/
+
+@media only screen and (max-width : 790px) {
+
+}
+
+ /*
+ @media (min-height: 720px) and (min-width : 1400px) {
+ 	
+}
+*/

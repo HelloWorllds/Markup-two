@@ -1,0 +1,803 @@
+@import "bourbon/bourbon"
+
+$text-color: #333
+$dark-color: #000
+$red-color: #fc645f
+$blue-color: #003469
+$green-color: #67bc5c
+$grey-color: #868686
+
+body
+	font-family: "RobotoRegular", sans-serif	
+	color: $text-color
+	font-weight: normal
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialised
+	overflow-x: hidden
+
+h1
+	color: #fff
+	font-size: 60px
+	line-height: 55px
+	font-weight: bold
+	font-family: "RobotoRegular", sans-serif
+	margin: 0
+
+section, footer
+	padding: 58px 0 68px	
+	h2
+		color: $blue-color
+		font-size: 50px
+		line-height: 56px
+		margin-bottom: 50px
+		font-family: "CleanvertisingLight", sans-serif
+		text-align: center
+		margin-top: 0
+		font-weight: normal
+
+p strong
+	font-family: "RobotoBold", sans-serif
+	font-weight: normal
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+	outline:none;
+	box-shadow: $red-color 0 0 4px 2px
+	border-radius: 3px
+	border-color: $red-color
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.hidden
+	display: none
+
+header
+	min-height: 640px
+	background-image: url(../img/bg.png)
+	background-color: rgba(0, 0, 0, 0.6);	
+	background-position: top center
+	background-size: cover
+	background-blend-mode: color;
+	color: #fff
+	padding-top: 32px
+	padding-bottom: 40px
+
+.red
+	color: $red-color
+
+.inline
+	display: inline-block
+
+.logo
+	display: inline-block
+	img
+		display: inline-block
+		width: 70px
+		color: $red-color
+		margin-right: 15px
+		margin-top: -10px
+	.logo_name
+		display: inline-block
+		font-family: "RobotoBold", sans-serif
+		font-size: 26px
+
+.main_menu
+	display: inline-block
+	float: right
+	text-transform: uppercase
+	font-family: "RobotoRegular", sans-serif
+	a
+		display: inline-block
+		color: #fff
+		margin-right: 40px
+		margin-top: 27px
+		&:hover
+			color: $red-color
+			text-decoration: none;
+			border-bottom: 4px solid $red-color;
+		&.active
+			color: $red-color
+
+.top_header
+	margin-top: 200px
+	text-align: center
+	h1
+		display: inline-block
+		margin-right: 15px
+		margin-left: 15px
+	h2
+		font-size: 24px
+		font-family: "CleanvertisingLight", sans-serif
+		opacity: 0.8
+		letter-spacing: 1px
+	
+.right_hr
+	background-color: $grey-color
+	height: 7px
+	width: 120px
+	margin-top: -5px
+	margin-bottom: 15px
+
+.left_hr
+	background-color: #7d7872
+	height: 7px
+	width: 120px
+	margin-top: -5px
+	margin-bottom: 15px
+
+.button
+	display: inline-block
+	border: 4px solid $red-color
+	background-color: transparent
+	border-radius: 9px
+	padding: 13px 45px
+	font-size: 24px
+	color: $red-color
+	cursor: pointer
+	margin-top: -25px
+
+.btn_wrap
+	text-align: center
+	margin-top: 100px
+	margin-left: 170px
+	display: block
+	.btn_top
+		display: inline-block
+		margin-right: 20px
+		margin-top: -15px
+	.mouse_img
+		display: inline-block
+		vertical-align: top
+
+.btn_circle
+	position: absolute
+	display: inline-block
+	background-color: transparent
+	cursor: pointer
+	border: none
+	left: 48%
+	bottom: 1%
+	img
+		width: 30px
+
+.teezers
+	text-align: center
+
+.teez_header
+	display: block
+	text-align: center	
+	strong
+		display: inline-block
+		color: $grey-color
+		font-size: 28px
+		text-transform: uppercase
+		margin-right: 10px
+		font-weight: normal
+		margin-bottom: 0
+	p
+		display: inline-block
+		color: $red-color
+		font-size: 28px
+		text-transform: uppercase
+		margin-bottom: 0
+	.underline
+		display: block
+		height: 1px
+		background-color: $grey-color
+		width: 340px
+		margin: auto
+
+.teez_words
+	display: block
+	text-align: center
+	margin: auto
+	width: 60%
+	h3
+		font-weight: normal
+		font-size: 20px
+		opacity: 0.5
+		margin-bottom: 85px
+
+.tiz_descr
+	margin-bottom: 60px
+	span
+		display: block
+		margin-top: 15px
+		margin-bottom: 7px
+		font-size: 20px
+		text-transform: uppercase
+		color: $grey-color
+		opacity: 0.9
+		font-weight: bold
+	strong
+		display: block
+		margin-top: 20px
+		font-size: 15px
+		font-weight: normal
+		color: $grey-color
+		opacity: 0.7
+	.small_underline
+		display: block
+		height: 1px
+		background-color: $grey-color
+		width: 50px
+		margin: auto
+		opacity: 0.7
+
+.btn_circle_red
+	position: absolute
+	display: inline-block
+	background-color: transparent
+	cursor: pointer
+	border: none
+	left: 48%
+	img
+		width: 30px
+
+.join
+	min-height: 600px
+	background-image: url(../img/join_bg.png)
+	background-color: rgba(0, 0, 0, 0.6);	
+	background-position: top center
+	background-size: cover
+	background-blend-mode: color;
+	color: #fff
+	padding-top: 170px
+	padding-bottom: 40px
+	.btn_circle_red
+		bottom: -50%
+
+.ramka
+	display: block
+	border: 10px solid rgba(255, 255, 255, 0.2)
+	text-align: center
+	padding: 80px 0
+	margin-bottom: 50px
+	strong
+		display: inline-block
+		font-size: 51px
+		color: $red-color
+		text-transform: uppercase
+		margin-right: 10px
+		font-weight: normal
+		margin-bottom: 100px
+	p
+		display: inline-block
+		font-size: 51px
+		text-transform: uppercase
+		margin-bottom: 100px
+	.button
+		display: block
+		margin: auto
+		padding: 10px 75px
+
+.process
+	text-align: center	
+	.process_header
+		display: block		
+		margin: auto
+		.process_hr
+			width: 17%
+			display: block		
+			margin: auto
+			border-bottom: 1px solid $grey-color
+			opacity: 0.6
+		strong
+			display: inline-block
+			font-size: 30px
+			color: $red-color
+			text-transform: uppercase
+			font-weight: normal
+			margin-bottom: 0
+		p
+			display: inline-block
+			font-size: 30px
+			text-transform: uppercase
+			color: $grey-color
+			margin-right: 10px
+			margin-bottom: 0
+	.process_descr
+		width: 70%
+		font-size: 20px
+		font-family: "CleanvertisingLight", sans-serif
+		opacity: 0.8
+		letter-spacing: 1px
+		margin: auto 
+		padding: 25px 0
+
+.process_img
+	width: 100%
+	padding: 25px 0
+	img
+		opacity: 1
+	.process_steps
+		font-size: 15px
+		color: $grey-color
+		.step_descr
+			margin-top: 7px
+			opacity: 0.7
+		.step_header
+			strong
+				display: inline-block
+				font-size: 25px
+				color: $red-color
+				text-transform: uppercase
+				font-weight: normal
+				margin-bottom: 0
+				font-weight: bold
+			p
+				display: inline-block
+				font-size: 25px
+				text-transform: uppercase
+				color: $grey-color
+				margin-right: 10px
+				margin-bottom: 0
+				font-weight: bold
+		.step_hr
+			width: 50%
+			display: block		
+			margin: auto
+			border-bottom: 1px solid $grey-color
+			opacity: 0.6
+
+.step_1
+	position: absolute
+	left: 15%
+	top: 42%
+
+.step_2
+	position: absolute
+	left: 39%
+	top: 49%
+
+.step_3
+	position: absolute
+	left: 46.5%
+	top: 30%
+
+.step_4
+	position: absolute
+	left: 62%
+	top: 43%
+
+.what_do
+	background-color: #f2f2f2
+	text-align: center
+
+.landing_pages
+	strong
+		display: inline-block
+		font-size: 30px
+		color: $red-color
+		text-transform: uppercase
+		font-weight: normal
+		margin-bottom: 0
+	p
+		display: inline-block
+		font-size: 30px
+		text-transform: uppercase
+		color: $grey-color
+		margin-right: 10px
+		margin-bottom: 0
+	.landing_hr
+		width: 21%
+		display: block		
+		margin: auto
+		border-bottom: 1px solid $grey-color
+		opacity: 0.6
+
+.landing_descr
+	text-align: left
+	display: inline-block
+	margin: 70px 0 0 0
+	.header
+		text-transform: uppercase
+		font-size: 25px
+		font-weight: bold
+		line-height: 25px
+		color: $grey-color
+		padding: 5px 15px
+		border-left: 8px solid $red-color
+	.descr
+		color: $grey-color
+		padding: 10px 0
+		opacity: 0.8
+
+.adv_descr
+	text-align: right
+	display: inline-block
+	margin: 70px 0 0 0
+	.header
+		text-transform: uppercase
+		font-size: 25px
+		font-weight: bold
+		line-height: 25px
+		color: $grey-color
+		padding: 5px 15px
+		border-right: 8px solid $red-color
+	.descr
+		color: $grey-color
+		padding: 10px 0
+		opacity: 0.8
+
+.kit_descr
+	text-align: left
+	display: inline-block
+	margin: 70px 0 0 0
+	.header
+		text-transform: uppercase
+		font-size: 25px
+		font-weight: bold
+		line-height: 25px
+		color: $grey-color
+		padding: 5px 15px
+		border-left: 8px solid $red-color
+	.descr
+		color: $grey-color
+		padding: 10px 0
+		opacity: 0.8
+
+
+.what_img
+	display: inline-block
+
+.button_wrap
+	margin: 30px 0 0 0
+	.btn_red
+		width: 170px
+		height: 45px
+		background-color: $red-color
+		color: white
+		font-size: 15px
+		padding: 0
+
+.portfolio
+	text-align: center
+	display: block
+	.header
+		text-transform: uppercase
+		font-size: 30px
+		font-weight: normal
+		line-height: 30px
+		color: $grey-color
+		letter-spacing: 2px
+		opacity: 0.8
+		margin-bottom: 10px
+	.hr
+		height: 1.5px
+		width: 14.8%
+		background-color: $grey-color
+		margin: 0 auto
+	.menu
+		border-top: 1px solid $grey-color
+		border-bottom: 1px solid $grey-color
+		opacity: 0.6
+		margin-top: 40px
+		margin-bottom: 40px
+		ul
+			list-style-type: none
+			text-align: center
+			li
+				display: inline-block
+				font-size: 22px
+				line-height: 20px
+				text-transform: uppercase				
+				padding: 5px 55px
+				a
+					cursor: pointer
+					color: $red-color
+	.demo
+		display: block		
+		.demo_item
+			display: inline-block
+			text-align: center
+			margin-right: 10px
+			margin-bottom: 13px
+			.img_bg_big
+				position: absolute
+				z-index: 1
+				width: 450px
+				height: 200px
+				background-color: $red-color
+				color: white
+				p
+					text-align: left
+					font-size: 20px
+					font-weight: bold
+					line-height: 20px
+					padding: 15px
+					margin-top: -2px
+					text-transform: uppercase
+					letter-spacing: 1px
+				strong
+					text-align: center
+					vertical-align: middle
+					font-size: 70px
+					font-weight: bold
+					line-height: 70px
+			.img_bg_small
+				position: absolute
+				z-index: 1
+				width: 218px
+				height: 200px
+				background-color: $red-color
+				color: white
+				p
+					text-align: left					
+					font-size: 20px
+					font-weight: bold
+					line-height: 20px
+					padding: 15px
+					margin-top: -2px
+					text-transform: uppercase
+					letter-spacing: 1px
+				strong
+					text-align: center
+					vertical-align: middle
+					font-size: 70px
+					font-weight: bold
+					line-height: 70px
+			.big_img
+				position: relative
+				z-index: 2
+				width: 450px
+				height: 200px 
+				overflow: hidden
+				text-align: left
+				img
+					margin-top: -75px
+			.small_img
+				position: relative				
+				z-index: 2
+				width: 218px
+				height: 200px
+				overflow: hidden			
+			&:hover
+				.big_img
+					opacity: 0.15
+				.small_img
+					opacity: 0.15
+	.button_wrap
+		margin-top: 50px
+		margin-bottom: 30px
+		.btn_red
+			padding: 5px 15px
+			width: 190px
+			font-size: 16px
+
+.team
+	background-color: #f2f2f2
+	text-align: center
+	.header
+		display: block
+		text-align: center
+		margin-bottom: 75px
+		strong
+			display: inline-block
+			font-size: 25px
+			color: $red-color
+			text-transform: uppercase
+			font-weight: normal
+			margin-bottom: 5px
+			font-weight: bold
+		p
+			display: inline-block
+			font-size: 25px
+			text-transform: uppercase
+			color: #565656
+			margin-right: 10px
+			margin-bottom: 5px
+			font-weight: bold
+		.hr
+			height: 1.0px
+			width: 12%
+			background-color: #565656
+			margin: 0 auto
+	.team_items
+		text-align: center
+		display: block
+		margin-bottom: 50px
+		.item
+			text-align: center
+			display: inline-block
+			margin-right: 120px
+			&:last-child
+				margin-right: 0
+			.photo
+				width: 150px
+				margin: 0 auto
+			.name
+				text-align: center
+				p
+					display: inline-block
+					font-size: 25px
+					color: $red-color
+					margin-right: 10px
+					margin-bottom: 5px
+					font-weight: bold
+					letter-spacing: 1px
+				strong
+					display: inline-block
+					font-size: 25px
+					color: #565656
+					margin-bottom: 5px
+					font-weight: bold
+					letter-spacing: 1px
+			.position
+				text-align: center
+				opacity: 0.6
+				font-size: 20px
+				margin-bottom: 15px
+			.socials
+				text-align: center
+				display: inline-block
+				img
+					margin-right: 15px
+					&:last-child
+						margin-right: 0
+					&:hover
+						width: 22%
+						cursor: pointer
+
+.rewviews
+	display: block
+	text-align: center
+	.header
+		margin-bottom: 120px
+		img
+			margin: 0 auto
+			
+.rewviews_item
+	display: block
+	text-align: center
+	position: relative
+	right: 112px
+	.text
+		display: inline-block
+		max-width: 400px
+		opacity: 0.7
+		font-size: 15px
+		text-align: left
+		position: relative
+		bottom: 50px
+	.img_wrap
+		display: inline-block
+		margin: 0 50px 0 50px
+		img
+			margin: 0 auto
+	.name
+		display: inline-block
+		position: relative
+		bottom: 60px
+		p
+			display: inline-block
+			font-size: 25px
+			color: $red-color
+			margin-right: 10px
+			margin-bottom: 5px
+			font-weight: bold
+			letter-spacing: 1px
+		strong
+			display: inline-block
+			font-size: 25px
+			color: #565656
+			margin-bottom: 5px
+			font-weight: bold
+			letter-spacing: 1px
+		.position
+			display: block
+			color: black
+			opacity: 0.5
+			font-size: 18px
+			position: relative
+			right: 8px
+			margin: 0
+			padding: 0
+
+
+.owl-nav
+	div
+		width: 32px
+		height: 33px
+		background-image: url(../img/c_arrows.svg)
+		margin: 0 auto
+		position: relative
+		right: 45px
+		top: 50px
+		opacity: .8
+		&:hover
+			opacity: 1
+		&.owl-next
+			position: relative
+			left: 45px
+			top: 17px
+			background-position: top right
+
+.owl-dots
+	width: 100%
+	margin-top: 30px
+	text-align: center
+	.owl-dot
+		width: 3px
+		height: 3px
+		display: inline-block
+		background-color: $red-color
+		margin: 0 4px
+		border-radius: 50%
+		opacity: .3
+		&.active
+			opacity: .9
+
+.contacts
+	display: block
+	text-align: center
+	margin-bottom: 0
+	margin-top: -300px
+	.marker
+		display: block
+		position: relative
+		top: 240px
+		img
+			position: relative
+			z-index: 1
+		.adress
+			display: block
+			position: relative
+			z-index: 2
+			color: white
+			bottom: 175px
+			max-width: 200px
+			margin: 0 auto
+			p
+				font-size: 25px
+				line-height: 50px
+				margin: 0
+				padding: 0
+			strong
+				font-size: 13px
+				margin: 0
+				padding: 0
+				font-weight: normal
+				opacity: 0.8
+	.map
+		margin-top: 20px
+		min-height: 480px
+		width: 100%
+		margin-bottom: 0
+		-webkit-filter: grayscale(1)
+        filter: gray
+        filter: grayscale(1)
+
+footer
+	min-height: 320px
+	background-image: url(../img/footer.png)
+	background-color: rgba(0, 0, 0, 0.6);	
+	background-position: middle center
+	background-size: cover
+	background-blend-mode: color;
+	color: #fff
+	margin-bottom: 0
+	margin-top: -68px
+	.bg
+		text-align: center
+		display: block
+		.logo
+			display: inline-block
+			margin-top: 50px
+			img
+				display: inline-block
+				width: 95px
+				color: $red-color
+				margin-right: 15px
+				margin-top: -10px
+			.logo_name
+				display: inline-block
+				font-family: "RobotoBold", sans-serif
+				font-size: 35px
+
+
